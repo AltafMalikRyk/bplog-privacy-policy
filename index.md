@@ -1,124 +1,372 @@
-# Privacy Policy for BP Log
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — BP Log</title>
+<style>
+  :root {
+    --teal: #1F8A82;
+    --teal-dark: #146059;
+    --coral: #FF6F58;
+    --coral-dark: #E8543F;
+    --bg: #FAF9F6;
+    --card: #FFFFFF;
+    --text: #2A2A2A;
+    --text-soft: #5B5B5B;
+    --border: #EDE8DF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  header {
+    background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+    color: #fff;
+    padding: 48px 20px 56px;
+    text-align: center;
+  }
+  header .logo-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.15);
+    margin-bottom: 18px;
+    font-size: 30px;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  header p {
+    margin: 4px 0;
+    color: #FFFFFF;
+    opacity: 0.98;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  header .meta-row {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    font-size: 13px;
+    opacity: 0.85;
+  }
+  .wrap {
+    max-width: 860px;
+    margin: -30px auto 60px;
+    padding: 0 20px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 30px;
+    margin-bottom: 22px;
+    box-shadow: 0 2px 10px rgba(31,138,130,0.06);
+  }
+  .toc {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 26px;
+    margin-bottom: 30px;
+  }
+  .toc h2 {
+    margin-top: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--teal-dark);
+  }
+  .toc ol {
+    columns: 2;
+    -webkit-columns: 2;
+    padding-left: 18px;
+    margin: 0;
+  }
+  .toc li { margin-bottom: 8px; font-size: 14px; }
+  .toc a { color: var(--text); text-decoration: none; }
+  .toc a:hover { color: var(--coral); }
+  h2 {
+    color: var(--teal-dark);
+    font-size: 20px;
+    border-bottom: 2px solid var(--coral);
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-top: 0;
+  }
+  h3 {
+    color: var(--teal-dark);
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  p { color: var(--text-soft); }
+  ul { color: var(--text-soft); padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a.link { color: var(--coral-dark); text-decoration: none; font-weight: 600; }
+  a.link:hover { text-decoration: underline; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: #F1F7F6;
+    color: var(--teal-dark);
+    font-weight: 700;
+  }
+  .badge-no {
+    display: inline-block;
+    background: #FFF1EE;
+    color: var(--coral-dark);
+    border: 1px solid #FFD9D1;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .badge-no strong { display: block; margin-bottom: 6px; color: var(--coral-dark); }
+  .contact-box {
+    background: linear-gradient(135deg, #FFF4F1 0%, #F1F7F6 100%);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+  }
+  .contact-box p { margin: 6px 0; color: var(--text); }
+  .contact-box strong { color: var(--teal-dark); }
+  footer {
+    text-align: center;
+    padding: 30px 20px 50px;
+    color: #9A9A9A;
+    font-size: 13px;
+  }
+  .updated-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.16);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  @media (max-width: 600px) {
+    .toc ol { columns: 1; -webkit-columns: 1; }
+    .card { padding: 22px 18px; }
+    header h1 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
 
-**Last Updated:** September 19, 2026  
-**Effective Date:** September 19, 2026  
-**Developer / Publisher:** ArticOde Innovations  
-**Contact Email:** articodeinnovations@gmail.com  
-**Contact Phone / WhatsApp:** +92 300 9673468  
-**Website / Repository:** https://github.com/articode-innovations/bplog  
+<header>
+  <div class="logo-badge">💙</div>
+  <h1>Privacy Policy for BP Log</h1>
+  <p>Blood Pressure Tracker — by ArticOde Innovations</p>
+  <div class="meta-row">
+    <span>Last Updated: September 20, 2026</span>
+    <span>Effective Date: September 20, 2026</span>
+  </div>
+  <div class="updated-tag">Developer / Publisher: ArticOde Innovations</div>
+</header>
 
----
+<div class="wrap">
 
-## 1. Introduction
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#intro">1. Introduction</a></li>
+      <li><a href="#collect">2. Information We Collect</a></li>
+      <li><a href="#store">3. How Your Data Is Stored & Handled</a></li>
+      <li><a href="#use">4. How We Use Your Information</a></li>
+      <li><a href="#third-party">5. Third-Party Services</a></li>
+      <li><a href="#ads">6. Advertising & Google AdMob</a></li>
+      <li><a href="#permissions">7. Permissions Requested</a></li>
+      <li><a href="#retention">8. Data Retention & Account Deletion</a></li>
+      <li><a href="#children">9. Children's Privacy</a></li>
+      <li><a href="#disclaimer">10. Medical Disclaimer</a></li>
+      <li><a href="#changes">11. Changes to This Privacy Policy</a></li>
+      <li><a href="#contact">12. Contact Us & Grievance Officer</a></li>
+    </ol>
+  </nav>
 
-Welcome to **BP Log** ("the Application"), developed and operated by **ArticOde Innovations** ("we", "our", or "us"). We respect your privacy and are committed to protecting the sensitive personal and health information of you and your family members. 
+  <div class="card" id="intro">
+    <h2>1. Introduction</h2>
+    <p>Welcome to <strong>BP Log</strong> ("the Application"), developed and operated by <strong>ArticOde Innovations</strong> ("we", "our", or "us"). We respect your privacy and are committed to protecting the sensitive personal and health information of you and your family members.</p>
+    <p>This Privacy Policy explains how our mobile application collects, uses, stores, and protects your information, and outlines your rights regarding your personal health data.</p>
+  </div>
 
-This Privacy Policy explains how our mobile application collects, uses, stores, and protects your information, and outlines your rights regarding your personal health data.
+  <div class="card" id="collect">
+    <h2>2. Information We Collect</h2>
 
----
+    <h3>A. Health & Blood Pressure Data</h3>
+    <ul>
+      <li><strong>Blood Pressure Readings:</strong> Systolic (mmHg), Diastolic (mmHg), Pulse (BPM).</li>
+      <li><strong>Measurement Metadata:</strong> Measurement date, time, arm/hand position (Left/Right), body posture (Sitting, Standing, Lying down), and personal notes.</li>
+      <li><strong>Patient Profiles:</strong> Patient name (or nickname), age, and gender.</li>
+    </ul>
 
-## 2. Information We Collect
+    <h3>B. Account & Authentication Data (Optional)</h3>
+    <ul>
+      <li><strong>Email & Name:</strong> If you choose to sign up or sign in using Email or Google Sign-In, we store your email address and display name.</li>
+      <li><strong>User Identifier (UID):</strong> A unique identifier generated by Google Firebase Authentication to securely link your data to your account across devices.</li>
+    </ul>
 
-### A. Health & Blood Pressure Data
-- **Blood Pressure Readings**: Systolic (mmHg), Diastolic (mmHg), Pulse (BPM).
-- **Measurement Metadata**: Measurement date, time, arm/hand position (Left/Right), body posture (Sitting, Standing, Lying down), and personal notes.
-- **Patient Profiles**: Patient name (or nickname), age, and gender.
+    <h3>C. Advertising & Device Identifiers</h3>
+    <ul>
+      <li><strong>Advertising ID (GAID):</strong> The Application displays ads through Google AdMob. AdMob automatically collects your device's Advertising ID and certain device/network information to serve and measure ads. See Section 6 for full details.</li>
+    </ul>
 
-### B. Account & Authentication Data (Optional)
-- **Email & Name**: If you choose to sign up or sign in using Email or Google Sign-In, we store your email address and display name.
-- **User Identifier (UID)**: A unique identifier generated by Google Firebase Authentication to securely link your data to your account across devices.
+    <h3>D. Technical & Diagnostic Data</h3>
+    <ul>
+      <li><strong>Local Preferences:</strong> Language preference (English / Urdu / Roman Urdu), notification reminders, theme, and font size settings.</li>
+    </ul>
+    <div class="badge-no">
+      <strong>We do NOT collect:</strong>
+      Precise GPS location, biometric data (fingerprint/face), IMEI, or MAC address. The only device-level identifier collected is the Advertising ID described above, used solely for ad delivery through Google AdMob.
+    </div>
+  </div>
 
-### C. Technical & Diagnostic Data
-- **Local Preferences**: Language preference (English / Urdu), notification reminders, theme, and font size settings.
-- We do **NOT** collect sensitive hardware identifiers (IMEI, MAC address), biometric data, or precise GPS location.
+  <div class="card" id="store">
+    <h2>3. How Your Data Is Stored & Handled</h2>
 
----
+    <h3>Offline / Local Storage (Default Mode)</h3>
+    <p>If you use the application without logging into an account, 100% of your records and patient profiles remain stored only on your local device, inside the app's private, sandboxed storage (Android SharedPreferences). This storage area is isolated by the Android operating system and is not accessible to other apps.</p>
+    <p>We cannot access, view, or transfer your offline records — they never leave your device unless you choose to export or share them yourself.</p>
 
-## 3. How Your Data Is Stored & Handled
+    <h3>Cloud Synchronization (When Logged In)</h3>
+    <p>If you sign in, your data is synced with Google Cloud Firestore servers. All network communication between the application and Firebase servers is encrypted in transit using industry-standard TLS / HTTPS (SSL), and data is encrypted at rest on Google Cloud infrastructure.</p>
+  </div>
 
-### Offline / Local Storage (Default Mode)
-- If you use the application without logging into an account, **100% of your records and patient profiles remain strictly stored on your local device** using encrypted local storage (`SharedPreferences` and local sandbox).
-- We cannot access, view, or transfer your offline records.
+  <div class="card" id="use">
+    <h2>4. How We Use Your Information</h2>
+    <p>We use the collected information solely to provide and improve the core functionality of the Application:</p>
+    <ul>
+      <li>To display blood pressure trend charts, weekly/monthly averages, and morning/evening statistics.</li>
+      <li>To generate clinical PDF reports with doctor's remarks sections for sharing with your physician.</li>
+      <li>To schedule local reminders on your device so you do not miss daily blood pressure measurements.</li>
+      <li>To synchronize your records across multiple devices when authenticated.</li>
+      <li>To display advertisements that help keep the Application free (see Section 6).</li>
+    </ul>
+    <div class="badge-no">
+      <strong>We NEVER:</strong>
+      Sell, rent, lease, or monetize your health data. Use your health information for behavioral advertising. Share your health data with data brokers or pharmaceutical advertisers.
+    </div>
+  </div>
 
-### Cloud Synchronization (When Logged In)
-- If you sign in, your data is synced with **Google Cloud Firestore** servers.
-- All network communications between the mobile application and Firebase servers are encrypted in transit using industry-standard **TLS / HTTPS (SSL)** and encrypted at rest on Google Cloud infrastructure.
+  <div class="card" id="third-party">
+    <h2>5. Third-Party Services</h2>
+    <p>The Application utilizes reputable third-party services that adhere to stringent data protection standards:</p>
+    <table>
+      <tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Policy</th></tr>
+      <tr>
+        <td>Firebase Authentication</td>
+        <td>Google LLC</td>
+        <td>User login & identity verification</td>
+        <td><a class="link" href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>Cloud Firestore</td>
+        <td>Google LLC</td>
+        <td>Encrypted multi-device sync</td>
+        <td><a class="link" href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank">Google Cloud Privacy</a></td>
+      </tr>
+      <tr>
+        <td>Google Sign-In</td>
+        <td>Google LLC</td>
+        <td>One-tap authentication</td>
+        <td><a class="link" href="https://myaccount.google.com/privacypolicy" target="_blank">Google Account Safety</a></td>
+      </tr>
+      <tr>
+        <td>Google AdMob</td>
+        <td>Google LLC</td>
+        <td>Displaying in-app native & banner advertisements</td>
+        <td><a class="link" href="https://policies.google.com/technologies/ads" target="_blank">Google Ads Policy</a></td>
+      </tr>
+    </table>
+  </div>
 
----
+  <div class="card" id="ads">
+    <h2>6. Advertising & Google AdMob</h2>
+    <p>BP Log is a free application supported in part by advertising, delivered through <strong>Google AdMob</strong>. To serve and measure ads, AdMob and its partners may collect and process:</p>
+    <ul>
+      <li>Your device's <strong>Advertising ID</strong> (a resettable, non-permanent identifier provided by Android — not your name, email, or health data)</li>
+      <li>General device and app information (device model, app version, general region derived from IP address)</li>
+      <li>Ad interaction data (impressions, clicks) used to measure ad performance</li>
+    </ul>
+    <p>Advertising data is handled entirely separately from your health records. <strong>Your blood pressure readings, patient profiles, and account information are never shared with AdMob or any advertising network.</strong></p>
+    <p>You can reset or limit your Advertising ID at any time via your device settings: <em>Settings → Google → Ads → Reset advertising ID / Opt out of ad personalization</em>.</p>
+  </div>
 
-## 4. How We Use Your Information
+  <div class="card" id="permissions">
+    <h2>7. Permissions Requested</h2>
+    <p>The Application requests only the minimal permissions required to deliver essential features:</p>
+    <ul>
+      <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used strictly to deliver local blood pressure measurement reminders configured by you. Reminders are handled locally on-device.</li>
+      <li><strong>Storage / Media (Photo Gallery & Downloads):</strong> Used when you choose to export your blood pressure report as a PDF document or save a summary chart into your phone's Gallery. No unrelated files are accessed.</li>
+    </ul>
+  </div>
 
-We use the collected information solely to provide and improve the core functionality of the Application:
-- To display blood pressure trend charts, weekly/monthly averages, and morning/evening statistics.
-- To generate clinical PDF reports with doctor's remarks sections for sharing with your physician.
-- To schedule local reminders on your device so you do not miss daily blood pressure measurements.
-- To synchronize your records across multiple devices when authenticated.
+  <div class="card" id="retention">
+    <h2>8. Data Retention and Account Deletion</h2>
+    <h3>Your Data Rights</h3>
+    <p>Under global privacy standards (including GDPR, CCPA, and Google Play User Data Policies):</p>
+    <ul>
+      <li><strong>Right to Access & Export:</strong> You can export all your health records at any time into a standard PDF report.</li>
+      <li><strong>Right to Delete (Local):</strong> Uninstalling the app or clearing application storage immediately deletes all local offline data.</li>
+      <li><strong>Right to Account Deletion (Cloud):</strong> You can request complete deletion of your Firebase account and all associated Firestore patient records directly inside the app, or by emailing <a class="link" href="mailto:articodeinnovations@gmail.com">articodeinnovations@gmail.com</a>. Upon confirmation, all data is permanently purged within 30 days.</li>
+    </ul>
+  </div>
 
-**WE NEVER:**
-- Sell, rent, lease, or monetize your health data or personal information.
-- Use your health information for behavioral advertising or marketing.
-- Share your data with data brokers or pharmaceutical advertisers.
+  <div class="card" id="children">
+    <h2>9. Children's Privacy</h2>
+    <p>The Application is intended for general health tracking by adults and families. We do not knowingly collect personal information directly from children under 13 without parental consent.</p>
+  </div>
 
----
+  <div class="card" id="disclaimer">
+    <h2>10. Medical Disclaimer</h2>
+    <p>BP Log is a self-monitoring log tool, <strong>not a diagnostic medical device</strong>. The Application does not diagnose hypertension, adjust medications, or replace professional healthcare consultations. Always seek the advice of your physician or qualified cardiologist regarding your blood pressure readings.</p>
+  </div>
 
-## 5. Third-Party Services
+  <div class="card" id="changes">
+    <h2>11. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time to reflect changes in legal requirements or app features. Any changes will be posted on this page with an updated "Effective Date".</p>
+  </div>
 
-The Application utilizes reputable third-party services that adhere to stringent data protection standards:
+  <div class="card" id="contact">
+    <h2>12. Contact Us & Grievance Officer</h2>
+    <p>If you have questions, feedback, or data privacy requests, please contact us:</p>
+    <div class="contact-box">
+      <p><strong>Organization:</strong> ArticOde Innovations</p>
+      <p><strong>Email:</strong> <a class="link" href="mailto:articodeinnovations@gmail.com">articodeinnovations@gmail.com</a></p>
+      <p><strong>Phone / WhatsApp:</strong> +92 300 9673468</p>
+      <p><strong>GitHub Repository:</strong> <a class="link" href="https://github.com/articode-innovations/bplog" target="_blank">github.com/articode-innovations/bplog</a></p>
+      <p><strong>Location:</strong> Punjab, Pakistan</p>
+    </div>
+  </div>
 
-| Service | Provider | Purpose | Privacy Policy Link |
-| :--- | :--- | :--- | :--- |
-| **Firebase Authentication** | Google LLC | User login & identity verification | [Google Privacy Policy](https://policies.google.com/privacy) |
-| **Cloud Firestore** | Google LLC | Encrypted multi-device sync | [Google Cloud Privacy](https://cloud.google.com/terms/cloud-privacy-notice) |
-| **Google Sign-In** | Google LLC | One-tap authentication | [Google Account Safety](https://myaccount.google.com/privacy) |
+</div>
 
----
+<footer>
+  &copy; 2026 ArticOde Innovations — BP Log Privacy Policy
+</footer>
 
-## 6. Permissions Requested
-
-The Application requests only the minimal permissions required to deliver essential features:
-
-1. **Notifications (`POST_NOTIFICATIONS`)**:  
-   Used strictly to deliver local blood pressure measurement reminders configured by you. Reminders are handled locally on-device.
-2. **Storage / Media (Photo Gallery & Downloads)**:  
-   Used when you choose to export your blood pressure report as a PDF document or save a summary chart into your phone's Gallery. No unrelated files are accessed.
-
----
-
-## 7. Data Retention and Account Deletion
-
-### Your Data Rights
-Under global privacy standards (including GDPR, CCPA, and Google Play User Data Policies):
-- **Right to Access & Export**: You can export all your health records at any time into a standard PDF report.
-- **Right to Delete (Local)**: Uninstalling the app or clearing application storage immediately deletes all local offline data.
-- **Right to Account Deletion (Cloud)**: You can request complete deletion of your Firebase account and all associated Firestore patient records directly inside the app or by emailing **articodeinnovations@gmail.com**. Upon confirmation, all data is permanently purged within 30 days.
-
----
-
-## 8. Children’s Privacy
-
-The Application is intended for general health tracking by adults and families. We do not knowingly collect personal information directly from children under 13 without parental consent.
-
----
-
-## 9. Medical Disclaimer
-
-**BP Log is a self-monitoring log tool, not a diagnostic medical device.**  
-The Application does not diagnose hypertension, adjust medications, or replace professional healthcare consultations. Always seek the advice of your physician or qualified cardiologist regarding your blood pressure readings.
-
----
-
-## 10. Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time to reflect changes in legal requirements or app features. Any changes will be posted on this page with an updated "Effective Date".
-
----
-
-## 11. Contact Us & Grievance Officer
-
-If you have questions, feedback, or data privacy requests, please contact us:
-
-- **Organization:** ArticOde Innovations  
-- **Email:** [articodeinnovations@gmail.com](mailto:articodeinnovations@gmail.com)  
-- **Phone / WhatsApp:** +92 300 9673468  
-- **GitHub Repository:** [https://github.com/articode-innovations/bplog](https://github.com/articode-innovations/bplog)  
-- **Location:** Punjab, Pakistan  
+</body>
+</html>
